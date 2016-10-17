@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	}
+	
+h1{
+	font-size: 160%;
+	font-weight: bold;
+	font-style: italic;
+		}
+		
+h2{
+	font-size: 130%;
+	font-weight: bold;
+	font-style: italic;
+		}
+	
+body{
+	background-color: #02E3FD;
+	margin-right: 5%;
+	margin-left: 5%;
+	}
+
+  /* menu superior */
+ 
+#menu_sup ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+#menu_sup li {
+    float: left;
+}
+
+#menu_sup li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu_sup li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#menu_sup li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+ /* menu superior */
+
+ /* menu lateral */
+ 
+ #menu_lat p {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+#menu_lat{
+    float: left;
+	clear: both;
+}
+
+#menu_lat p a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu_lat p a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#menu_lat p a.active {
+    color: white;
+    background-color: #4CAF50;
+} 
+	 
+ /* menu lateral */
+ 
+	 
+ 
+ #texto{
+ 	position:relative;
+	right: 10 px;
+	
+	 }
+	
+#corpo{
+	background-color: #;
+	background-color: #aeeeee;
+	}
+	
+#rodape{
+	clear: both;
+}
